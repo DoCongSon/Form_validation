@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" href="./main.css">
     <title>Form validation</title>
 </head>
 <body>
     <div class="main">
-        <form action="" method="post" class="form" id="form-validator">
+        <form action="https://send.pageclip.co/7sXOE03TSKTW4w3Asd69gB6nS9OxWFJF/validate" method="post" class="form pageclip-form" id="form-validator">
             <h2 class="heading">Thành viên đăng kí</h2>
             <p class="description">Cùng nhau học lập trình miễn phí tại F8 ❤️</p>
             <div class="spacer"></div>
@@ -40,7 +41,7 @@
                 <input type="password" id="password_confirmation" rules = "required|confirm;#password" class="form-control" name="password_confirmation" placeholder="Nhập lại mật khẩu">
                 <span class="form-message"></span>
             </div>
-            <button class="form-submit" type="submit">Đăng ký</button>
+            <button class="form-submit pageclip-form__submit" type="submit"><span>Đăng ký</span></button>
         </form>
     </div>
 
@@ -51,5 +52,6 @@
             console.log(data);
         }
     </script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
