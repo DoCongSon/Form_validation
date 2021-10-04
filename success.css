@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #d1fad7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: 'Akronim', cursive;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+}
+
+h2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 100px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
+}
