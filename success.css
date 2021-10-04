@@ -29,3 +29,29 @@ h2 {
     -webkit-background-clip: text;
     background-image: linear-gradient(90deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
 }
+
+button {
+    margin-top: 200px;
+    border: none;
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #f7b7cc;
+    transition: all 0.2s linear;
+}
+
+button:hover {
+    background-color: #ef6191;
+    transition: all 0.2s linear;
+}
+
+button:hover a {
+    color: wheat;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #355c7d;
+}
